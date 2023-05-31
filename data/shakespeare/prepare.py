@@ -7,7 +7,7 @@ import numpy as np
 input_file_path = os.path.join(os.path.dirname(__file__), 'input.txt')
 if not os.path.exists(input_file_path):
     # data_url = 'https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt'
-    data_url = 'https://raw.githubusercontent.com/AryaX2022/nanoGPT/master/data/shakespeare/book.txt'
+    data_url = 'https://github.com/AryaX2022/nanoGPT/raw/master/data/shakespeare/tlbb.txt'
     with open(input_file_path, 'w') as f:
         f.write(requests.get(data_url).text)
 
